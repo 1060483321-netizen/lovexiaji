@@ -2,7 +2,8 @@
 setlocal
 
 for %%I in ("%~dp0.") do set "PROJECT_DIR=%%~fI"
-set "RENPY_EXE=C:\Users\28100\Desktop\renpy-8.5.2-sdk\renpy.exe"
+for %%I in ("%~dp0..") do set "WORKSPACE_DIR=%%~fI"
+set "RENPY_EXE=%WORKSPACE_DIR%\renpy-8.5.2-sdk\renpy.exe"
 
 if not exist "%RENPY_EXE%" (
     echo RenPy not found:

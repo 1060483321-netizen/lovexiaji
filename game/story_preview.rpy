@@ -11,11 +11,14 @@ define zhongmang = Character("种芒", color="#f5d28f")
 define zhishui = Character("止水", color="#d7d1ff")
 define daru = Character("大如", color="#ffd2f2")
 define yuhui = Character("余晖", color="#bfe7ff")
-define lily = Character("Lily", color="#d8c8ff")
+define bandleader = Character("乐队队长", color="#d8c8ff")
 define mother = Character("母亲", color="#d9d9d9")
 define shortgirl = Character("短发女生", color="#d8d8d8")
 
 label chapter01_preview:
+
+    $ sy_outfit = "daily"
+    $ biecou_outfit = "casual"
 
     scene black
     with fade
@@ -282,6 +285,8 @@ label chapter01_preview:
     "像是在确认今晚真的发生过什么。"
     "又像是在借着这首歌，把那个金发背影牢牢记住。"
 
+    $ sy_outfit = "home"
+
     show sy alone at center
     with dissolve
 
@@ -291,6 +296,9 @@ label chapter01_preview:
     return
 
 label chapter02_preview:
+
+    $ sy_outfit = "daily"
+    $ biecou_outfit = "casual"
 
     scene black
     with fade
@@ -367,6 +375,8 @@ label chapter02_preview:
     scene bg gym_interior_day
     with fade
 
+    $ biecou_outfit = "basketball"
+
 
     "下午四点，SY还是换上运动服去了球馆。"
     "刚进门，她就听见篮球连续撞击地板的声音。"
@@ -416,6 +426,8 @@ label chapter02_preview:
     scene bg gym_exit_sunset
     with dissolve
 
+    $ biecou_outfit = "casual"
+
     "训练结束后，SY擦着汗，顺手递了几张湿巾给别凑。"
 
     biecou "谢啦。"
@@ -449,6 +461,11 @@ label chapter02_preview:
 
     "几天后，阿表因为感冒，把一个学生会的督场任务丢给了SY。"
     "SY穿着借来的黑色西装，被迫站在舞台边发呆。"
+
+    $ sy_outfit = "suit"
+
+    show sy neutral at left
+    with dissolve
 
     "会场灯光暗下来以后，她反而自在了一点。"
     "直到主持人念出下一个节目。"
@@ -508,6 +525,8 @@ label chapter03_preview:
     scene bg dorm_morning
     with dissolve
 
+    $ sy_outfit = "home"
+
     show abiao sick at left
     show sy lying at right
     with dissolve
@@ -524,6 +543,8 @@ label chapter03_preview:
 
     scene bg basketball_court_day
     with fade
+
+    $ sy_outfit = "basketball"
 
 
     "正式进队以后，SY保持着规律训练。"
@@ -632,6 +653,9 @@ label chapter03_preview:
     scene bg senior_dorm_inside
     with dissolve
 
+    $ sy_outfit = "daily"
+    $ biecou_outfit = "casual"
+
     show xiaokui calm at center
     show biecou stiff at left
     show sy neutral at right
@@ -698,6 +722,8 @@ label chapter03_preview:
 
 label chapter04_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -736,6 +762,8 @@ label chapter04_preview:
 
     scene bg basketball_arena_day
     with fade
+
+    $ biecou_outfit = "basketball"
 
 
     "十月底，全国大学生篮球赛开打。"
@@ -938,6 +966,8 @@ label chapter04_preview:
 
 label chapter05_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -957,6 +987,8 @@ label chapter05_preview:
     scene bg dorm_morning
     with fade
 
+    $ sy_outfit = "home"
+
     show sy startled at center
     with dissolve
 
@@ -970,6 +1002,8 @@ label chapter05_preview:
 
     scene bg barbecue_night
     with fade
+
+    $ sy_outfit = "daily"
 
 
     "为了给队伍提气，也为了庆祝SY归队，肥皂请全队去吃烤肉。"
@@ -1311,6 +1345,9 @@ label chapter06_preview:
 
 label chapter07_preview:
 
+    $ sy_outfit = "daily"
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -1356,6 +1393,9 @@ label chapter07_preview:
     scene bg training_field_morning
     with fade
 
+    $ sy_outfit = "basketball"
+    $ biecou_outfit = "basketball"
+
 
     "另一边，全国赛还在继续。"
     "为了给两个新人补足对抗和体能，肥皂把训练强度直接往上提了一个档。"
@@ -1377,6 +1417,9 @@ label chapter07_preview:
 
     scene bg dorm_evening
     with fade
+
+    $ sy_outfit = "home"
+    $ biecou_outfit = "casual"
 
     show abiao at left
     show sy sleepy at right
@@ -1411,6 +1454,8 @@ label chapter07_preview:
 
     scene bg hall_inside_night
     with fade
+
+    $ sy_outfit = "daily"
 
 
     "到了演出那晚，SY把别凑也一起拽去了宴会厅。"
@@ -1496,6 +1541,8 @@ label chapter07_preview:
 
 label chapter08_preview:
 
+    $ sy_outfit = "daily"
+
     scene black
     with fade
 
@@ -1560,6 +1607,8 @@ label chapter08_preview:
     scene bg dorm_night
     with fade
 
+    $ sy_outfit = "home"
+
 
     "而SY一回宿舍就倒在床上。"
     "那一夜她做了个混乱又滚烫的梦。"
@@ -1569,6 +1618,8 @@ label chapter08_preview:
 
     scene bg bathroom_morning
     with fade
+
+    $ sy_outfit = "home"
 
     show sy embarrassed at center
     with dissolve
@@ -1695,6 +1746,9 @@ label chapter09_preview:
 
 label chapter10_preview:
 
+    $ sy_outfit = "basketball"
+    $ biecou_outfit = "basketball"
+
     scene black
     with fade
 
@@ -1774,6 +1828,8 @@ label chapter10_preview:
     scene bg training_field_evening
     with fade
 
+    $ biecou_outfit = "basketball"
+
     "离比赛只剩两天，篮球队开始最后的针对性训练。"
     "肥皂把那份资料拆开讲给所有人听，从对手身高到惯用路线，一条条分析。"
 
@@ -1803,6 +1859,8 @@ label chapter10_preview:
 
     scene bg office_window_night
     with fade
+
+    $ biecou_outfit = "casual"
 
     show yangwenming formal at center
     with dissolve
@@ -1935,6 +1993,8 @@ label chapter11_preview:
 
 label chapter12_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -2053,6 +2113,9 @@ label chapter12_preview:
 
 label chapter13_preview:
 
+    $ sy_outfit = "daily"
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -2084,6 +2147,8 @@ label chapter13_preview:
 
     scene bg themepark_gate_day
     with fade
+
+    $ sy_outfit = "date"
 
 
     "到了游乐园以后，别凑拉着小葵转头就跑。"
@@ -2310,6 +2375,8 @@ label chapter14_preview:
 
 label chapter15_preview:
 
+    $ sy_outfit = "daily"
+
     scene black
     with fade
 
@@ -2373,6 +2440,8 @@ label chapter15_preview:
 
 label chapter16_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -2381,6 +2450,9 @@ label chapter16_preview:
 
     scene bg training_field_winter
     with dissolve
+
+    $ sy_outfit = "basketball"
+    $ biecou_outfit = "basketball"
 
     "天气越来越冷。"
     "但篮球队的热闹一点没减。"
@@ -2405,6 +2477,9 @@ label chapter16_preview:
 
     scene bg ktv_room_night
     with fade
+
+    $ sy_outfit = "daily"
+    $ biecou_outfit = "casual"
 
 
     "包厢一开始还有点拘谨。"
@@ -2543,6 +2618,8 @@ label chapter17_preview:
     scene bg biecou_room_dark
     with fade
 
+    $ biecou_outfit = "home"
+
     "她带着奶油草莓找上门。"
     "结果推开门时，房间里黑得像一间不愿见光的盒子。"
 
@@ -2567,6 +2644,8 @@ label chapter17_preview:
     return
 
 label chapter18_preview:
+
+    $ biecou_outfit = "casual"
 
     scene black
     with fade
@@ -2665,6 +2744,8 @@ label chapter18_preview:
 
 label chapter19_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -2712,6 +2793,8 @@ label chapter19_preview:
 
     scene bg buffet_counter
     with dissolve
+
+    $ sy_outfit = "date"
 
     show zhongmang at left
     show sy awkward at right
@@ -2763,6 +2846,8 @@ label chapter19_preview:
 
     scene bg hotel_room_morning
     with fade
+
+    $ sy_outfit = "home"
 
     "第二天清晨，SY醒得很慢。"
     "可意识一回来，昨夜那些破碎的片段也跟着一起回来了。"
@@ -2995,6 +3080,8 @@ label chapter21_preview:
 
 label chapter22_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -3003,6 +3090,8 @@ label chapter22_preview:
 
     scene bg dorm_dark_day
     with dissolve
+
+    $ sy_outfit = "home"
 
     "SY还是把自己关在床上。"
     "阿表已经到了快要研究舍友暴毙应急手册的地步。"
@@ -3028,6 +3117,8 @@ label chapter22_preview:
 
     scene bg backstage_evening
     with fade
+
+    $ biecou_outfit = "stage"
 
 
     "另一边，别凑准备上台。"
@@ -3240,6 +3331,8 @@ label chapter24_preview:
 
 label chapter25_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -3257,15 +3350,17 @@ label chapter25_preview:
     scene bg basement_bandroom
     with fade
 
+    $ biecou_outfit = "practice"
+
 
     "别凑加入了Ark乐队。"
     "第一次走进排练室时，她差点被地下仓库那股阴冷潮湿和重金属震得掉头就跑。"
 
-    "可Lily只听她弹了一小段，就把人留下了。"
+    "可乐队队长只听她弹了一小段，就把人留下了。"
 
-    lily "技术不错。"
-    lily "就是还嫩。"
-    lily "先去买把电吉他吧。"
+    bandleader "技术不错。"
+    bandleader "就是还嫩。"
+    bandleader "先去买把电吉他吧。"
 
     scene bg instrument_shop_day
     with fade
@@ -3282,6 +3377,8 @@ label chapter25_preview:
 
     scene bg internet_cafe_day
     with fade
+
+    $ sy_outfit = "daily"
 
     "SY这边，也终于和游戏里认识的同校搭子线下面基。"
     "来的人叫余晖。"
@@ -3304,6 +3401,8 @@ label chapter25_preview:
 
 label chapter26_preview:
 
+    $ biecou_outfit = "casual"
+
     scene black
     with fade
 
@@ -3312,6 +3411,8 @@ label chapter26_preview:
 
     scene bg tea_restaurant_day
     with dissolve
+
+    $ sy_outfit = "date"
 
     "网吧出来后，余晖带SY去吃了一家很地道的茶餐厅。"
     "牛肉面上桌的那一刻，SY几乎被香味直接拽回了家。"
@@ -3333,6 +3434,8 @@ label chapter26_preview:
 
     scene bg band_venue_backstage
     with fade
+
+    $ biecou_outfit = "stage"
 
 
     "另一边，别凑也第一次真正撞见了自己以前没见过的世界。"
@@ -3391,6 +3494,8 @@ label chapter27_preview:
 
     scene bg bath_exit_night
     with fade
+
+    $ sy_outfit = "daily"
 
     "洗完澡出来那晚，她却在路口看见了SY。"
     "还有站在SY旁边、正笑着说话的余晖。"
@@ -3507,6 +3612,8 @@ label chapter28_preview:
     return
 
 label chapter29_preview:
+
+    $ biecou_outfit = "casual"
 
     scene black
     with fade
@@ -3728,5 +3835,963 @@ label chapter30_preview:
     "阿表抬头看见她时，几乎一下就明白了。"
     "后面的风，不会小。"
 
+
+    return
+
+label chapter31_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十一章【刺痛】"
+
+    scene bg external_affairs_office
+    with dissolve
+
+    "种芒亲自找到阿表以后，舞社经费的问题便再也盖不住了。"
+    "阿表嘴上说自己不清楚，心里却已经把每一笔异常都记得明明白白。"
+    "也是从这一天开始，她第一次真正走近了种芒。"
+
+    show zhongmang at left
+    show abiao worried at right
+    with dissolve
+
+    zhongmang "如果你以后想起什么，可以告诉我。"
+    abiao "好。"
+
+    scene bg bandroom_smoke
+    with fade
+
+    "另一边，别凑的乐队生活越来越重。"
+    "她把所有烦躁都塞进排练里，连看向小葵的时候都带着压不住的倦意。"
+    "队友起哄说她已经把小葵宠成了家属。"
+    "她嘴上否认，耳尖却还是红了。"
+
+    scene bg flashback_alley
+    with dissolve
+
+    "而最痛的那一刀，落在了SY和种芒身上。"
+    "漫长的躲避之后，她们终于在一条偏僻的小巷里撞上彼此。"
+    "没有久别重逢的喜悦，只有一瞬间全数翻涌的委屈与不甘。"
+
+    show sy strained at left
+    show zhongmang at right
+    with dissolve
+
+    "SY盯着那张熟悉又遥远的脸，眼眶发烫。"
+    "最后，她一句重话也没说，只是失控般一拳砸向粗糙的墙面。"
+    "血顺着指节淌下来，像把这几个月所有隐忍都撕开了。"
+
+    return
+
+label chapter32_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十二章【傀儡】"
+
+    scene bg infirmary_night
+    with dissolve
+
+    "种芒被那只鲜血淋漓的手吓坏了。"
+    "她想带SY去处理伤口，SY却像钉在原地一样，一动不动。"
+    "直到种芒红着眼扑进她怀里，那具快要死掉的躯壳才慢慢有了温度。"
+
+    show zhongmang at left
+    show sy down at right
+    with dissolve
+
+    zhongmang "SY，别这样。"
+    zhongmang "你再这样，我会更难受。"
+
+    "SY终于伸手抱住了她。"
+    "可当两个人真正贴近时，那场平安夜留下的阴影又同时浮了上来。"
+    "种芒在心动和恐惧之间挣扎，最后还是先一步退开。"
+
+    scene bg xiaokui_room_night
+    with fade
+
+    "同一晚，小葵正在家族宴会的妆镜前换上另一张面孔。"
+    "她很擅长体面，也很擅长顺从。"
+    "只是越熟练，就越觉得自己像一具被摆上台面的精致傀儡。"
+    "她想起别凑，忽然无比怀念那种不顾一切的热烈。"
+
+    return
+
+label chapter33_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十三章【雨季】"
+
+    scene bg family_dinner_night
+    with dissolve
+
+    "宴会开始后，小葵继续在灯火辉煌的人群里扮演乖巧的千金。"
+    "酒杯、礼裙、笑容、寒暄。"
+    "一切都无可挑剔。"
+    "可她透过玻璃看见的，始终只是一个被困在金色雨幕里的自己。"
+
+    scene bg dorm_night
+    with fade
+
+    "而种芒也在用另一种方式逃避。"
+    "她开始频繁出入酒吧，试图从陌生人身上找出一点像SY的影子。"
+    "高个子，黑长发，清冷一点，安静一点。"
+    "可看来看去，谁都不是她。"
+
+    scene bg dorm_day
+    with dissolve
+
+    "这场连绵不绝的雨，最后浇在了每个人心上。"
+    "小葵更坚定地想留在别凑身边。"
+    "种芒却在明知无用的寻找里，把自己越推越远。"
+
+    return
+
+label chapter34_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十四章【前夜】"
+
+    scene bg izakaya_night
+    with dissolve
+
+    "那一晚，种芒终于把自己喝得很醉。"
+    "她坐在酒吧门口淋雨，像是故意要把最后一点体面也泡烂。"
+    "把她捡回来的，是阿表。"
+
+    show abiao worried at left
+    show zhongmang at right
+    with dissolve
+
+    "阿表撑着伞，小心翼翼把她送上车。"
+    "她以前一直觉得种芒是最会掌控一切的人。"
+    "直到这一刻，她才发现这位学姐也会脆弱，也会无处可去。"
+
+    scene bg taxi_night
+    with fade
+
+    "返校的路上，种芒半睡半醒，靠在阿表肩头。"
+    "她含糊地叫了一声SY。"
+    "那两个字轻得像梦，却足够让阿表心里一沉。"
+
+    "有些风暴来临之前，并不会轰轰烈烈。"
+    "它只会先在最安静的地方，留下一个裂口。"
+
+    return
+
+label chapter35_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十五章【狂乱】"
+
+    scene bg dorm_corridor_night
+    with dissolve
+
+    "阿表把种芒送到宿舍，心里却再也平静不下来。"
+    "她第一次知道，原来自己想靠近的人，始终在看另一个方向。"
+
+    scene bg campus_path_day
+    with fade
+
+    "而SY也并没有比她好多少。"
+    "她远远看见种芒和阿表站在一起，哪怕什么都没发生，情绪还是瞬间失控。"
+    "嫉妒、心虚、愧疚、自厌。"
+    "所有不该出现的东西一起翻上来，让她几乎喘不过气。"
+
+    scene bg dance_room_night
+    with dissolve
+
+    "止水终于不再装作没看见。"
+    "她把种芒堵在排练室里，问她最近到底怎么了。"
+    "种芒沉默了很久，听见SY的名字时，眼泪还是掉了下来。"
+
+    show zhishui angry at left
+    show zhongmang at right
+    with dissolve
+
+    zhishui "你还喜欢她。"
+    "这一次，种芒没有否认。"
+
+    return
+
+label chapter36_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十六章【浪潮】"
+
+    scene bg dance_room_night
+    with dissolve
+
+    "止水知道真相以后，怒得想立刻去找SY算账。"
+    "在她眼里，SY伤了种芒，又迟迟不给答案。"
+    "可真正拦住她的人，偏偏还是种芒自己。"
+
+    zhongmang "别去。"
+    zhongmang "这是我和她的事。"
+
+    scene bg late_dinner_night
+    with fade
+
+    "话说开以后，逃避终于到了尽头。"
+    "种芒和SY还是见了面。"
+    "那些压抑太久的情绪像潮水一样反扑回来，把两个人同时卷了进去。"
+    "她们没有再往后退。"
+
+    scene bg restaurant_day
+    with dissolve
+
+    "第二天早上，气氛反倒变得无比尴尬。"
+    "种芒围着围巾遮脖子，SY裹着手上的纱布低头吃饭。"
+    "昨夜让她们确认了心意，也让她们第一次真正意识到，彼此之间并不只剩下喜欢。"
+    "还剩很多没补完的裂缝，和很多还不会相爱的笨拙。"
+
+    return
+
+label chapter37_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十七章【晨曦】"
+
+    scene bg cafe_day
+    with dissolve
+
+    $ sy_outfit = "date"
+
+    "笨拙归笨拙，甜也是真的甜。"
+    "一起吃饭时，种芒会把自己那一勺咖喱喂到SY嘴边。"
+    "SY总是看她看得太直白，逼得种芒先红了脸。"
+
+    show zhongmang at left
+    show sy smile at right
+    with dissolve
+
+    zhongmang "SY。"
+    zhongmang "别再那么看我。"
+    sy "可我忍不住。"
+
+    scene bg home_livingroom
+    with fade
+
+    "与此同时，肥皂和杨文明之间也终于有了回暖的迹象。"
+    "她带着亲手做的菜去了杨文明家。"
+    "杨阿姨像从前那样招呼她，杨文明也终于肯安安静静坐下来，和她吃一顿像样的饭。"
+
+    "漫长的黑夜过去以后，几个人都看见了一点晨光。"
+
+    return
+
+label chapter38_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十八章【雨季】"
+
+    scene bg home_livingroom
+    with dissolve
+
+    "肥皂和杨文明重新坐在同一张饭桌前时，连空气都透着久违的生涩。"
+    "她们都想靠近一点，却都不再敢像从前那样理所当然。"
+
+    scene bg cafe_day
+    with fade
+
+    "S芒这边则像在补一场迟来的约会。"
+    "种芒主动约SY出门。"
+    "光是收到一句'今天有空吗'，SY就已经紧张得像要上场打决赛。"
+
+    scene bg xiaokui_room_day
+    with dissolve
+
+    "别凑生日那天，小葵陪她窝在房间里看《天空之城》。"
+    "她靠在别凑肩上，第一次这么清楚地看见，这个总是吵吵闹闹的人，心里竟有那么辽阔又炽热的世界。"
+
+    return
+
+label chapter39_preview:
+
+    scene black
+    with fade
+
+
+    centered "第三十九章【浅夏】"
+
+    scene bg xiaokui_room_night
+    with dissolve
+
+    "电影放到一半，小葵已经不是在看屏幕，而是在看别凑。"
+    "她想，自己喜欢的也许不只是这个人的勇敢。"
+    "还有她对热爱近乎偏执的专注。"
+
+    scene bg library_day
+    with fade
+
+    "种芒则跑去教室外偷偷等SY下课。"
+    "隔着人群和桌椅，她用一个噤声的手势就把SY逗得满脸通红。"
+    "两个人都还像新手。"
+    "可恋爱最好的地方，本来就是连笨拙都可爱。"
+
+    scene bg feizao_room_day
+    with dissolve
+
+    "另一边，肥皂接下了给SY画游戏立绘的小委托。"
+    "本来只是随手帮忙，画着画着，却像又摸到了一条从没认真走过的路。"
+
+    return
+
+label chapter40_preview:
+
+    scene black
+    with fade
+
+
+    centered "第四十章【夜色】"
+
+    scene bg feizao_room_evening
+    with dissolve
+
+    "止水很快看出了肥皂在画画上的天分。"
+    "她嫌肥皂总把自己说成咸鱼，也看不惯她明明有能力却永远只肯浅浅试一下。"
+
+    show zhishui cool at left
+    show feizao awkward at right
+    with dissolve
+
+    zhishui "有天赋就别浪费。"
+    feizao "我只是随便画画。"
+    zhishui "你就是太随便。"
+
+    scene bg late_dinner_night
+    with fade
+
+    "夜里，SY终于约到了想约很久的那顿饭。"
+    "而别凑那边，乐队演出和三对三篮球赛也同时压了过来。"
+    "所有人的生活都在变快。"
+    "真正的夜色，还远没有落完。"
+
+    return
+
+label chapter41_preview:
+
+    scene black
+    with fade
+
+
+    centered "第四十一章【星辉】"
+
+    scene bg stage_glow
+    with dissolve
+
+    "Ark乐队的演出比所有人想象中都更好。"
+    "台上的别凑像换了一个人。"
+    "她不再只是那个会冲动会炸毛的小狮子，而是真正学会了把锋芒变成光。"
+
+    scene bg hall_inside_night
+    with fade
+
+    "小葵坐在台下，看着她被灯光包裹。"
+    "那一刻她忽然明白，也许别凑真正该去的地方，从来都不止她一个人身边。"
+    "还包括舞台。"
+
+    scene bg restaurant_day
+    with dissolve
+
+    "演出结束后，大家一起吃饭。"
+    "表面上还是吵吵闹闹，实际上每个人心里都清楚。"
+    "她们已经和最初的自己，不一样了。"
+
+    return
+
+label chapter42_preview:
+
+    scene black
+    with fade
+
+
+    centered "第四十二章【弦月】"
+
+    scene bg street_night
+    with dissolve
+
+    "喝醉的别凑被小葵一路搀回去。"
+    "乐队前辈嘴上拿她开玩笑，最后还是把人好好交到小葵手里。"
+    "弦月挂在夜空，像一把没说破的温柔。"
+
+    scene bg basketball_court_match
+    with fade
+
+    "三对三比赛当天，舞社来做啦啦队。"
+    "种芒和小葵跳舞时，都忍不住偷偷去找场边那双眼睛。"
+    "止水一眼看穿，只能一边无语一边把队形重新拽稳。"
+
+    scene bg arena_stands_day
+    with dissolve
+
+    "而杨文明也来了。"
+    "她明明站在人群里一动不动，肥皂却还是一下就知道，她在看自己。"
+
+    return
+
+label chapter43_preview:
+
+    scene black
+    with fade
+
+
+    centered "第四十三章【燃情】"
+
+    scene bg basketball_court_match
+    with dissolve
+
+    "樱大的三对三打得很疯。"
+    "肥皂像重新回到了最熟悉的战场，止水和小葵在场边喊得比谁都大声。"
+    "别凑也终于肯承认，自己其实一直在为身边这些人骄傲。"
+
+    scene bg gym_exit_sunset
+    with fade
+
+    "赛后，杨文明第一次正面夸了肥皂一句。"
+    "就这一句，足够让肥皂笑得像赢了全世界。"
+
+    scene bg zhongmang_room_night
+    with dissolve
+
+    "夜里，种芒给受伤的SY吹头发。"
+    "吹着吹着，小狼站着睡着了。"
+    "种芒望着那道疲惫到极点却还硬撑着的身影，心口又软又热。"
+    "她知道，自己已经很难再放开她了。"
+
+    return
+
+label chapter44_preview:
+
+    scene black
+    with fade
+
+
+    centered "第四十四章【玫瑰】"
+
+    scene bg zhongmang_room_night
+    with dissolve
+
+    "种芒把吹风机调到最小，轻手轻脚帮SY吹完了头发。"
+    "她本来只想照顾她。"
+    "可当距离一点点缩短，那些早就压不住的心动还是悄悄烧了起来。"
+    "玫瑰再漂亮，也终究是带刺的。"
+
+    scene bg home_livingroom
+    with fade
+
+    "另一边，肥皂又走进了杨文明的房间。"
+    "熟悉的摆设、旧电视里的《浪漫满屋》、并排放好的枕头。"
+    "她像被一下拽回了小时候。"
+
+    scene bg bandroom_smoke
+    with dissolve
+
+    "与此同时，Ark收到了经纪公司的签约邀请。"
+    "这对别人来说像是机会。"
+    "对别凑来说，却更像一道把理想和现实同时推到眼前的难题。"
+
+    return
+
+label chapter45_preview:
+
+    $ biecou_outfit = "casual"
+
+    scene black
+    with fade
+
+
+    centered "第四十五章【山雨】"
+
+    scene bg bandroom_smoke
+    with dissolve
+
+    $ biecou_outfit = "practice"
+
+    "乐队内部很快吵成一团。"
+    "有人想抓住出道机会，有人怕理想被工业流水线磨碎。"
+    "所有人都在争一条未来。"
+
+    show biecou serious at center
+    with dissolve
+
+    "而别凑第一次意识到，自己不能再永远靠热血做决定。"
+    "她还年轻。"
+    "可年轻并不等于永远有退路。"
+
+    scene bg office_window_night
+    with fade
+
+    "小葵也在母亲的办公室里，看见了另一种成人世界。"
+    "那里没有舞台、没有冲动，只有秩序、交换和无声施压。"
+    "山雨欲来前，空气总是格外沉。"
+
+    return
+
+label chapter46_preview:
+
+    scene black
+    with fade
+
+
+    centered "第四十六章【黑云】"
+
+    scene bg city_road_day
+    with dissolve
+
+    "杨文明发现了肥皂画的游戏立绘。"
+    "她没有笑她异想天开，反而很认真地夸她画得好。"
+    "那点被止水点燃的火，终于又旺了一些。"
+
+    scene bg external_affairs_office
+    with fade
+
+    "阿表却没那么轻松。"
+    "朴部长开始追问经费底单。"
+    "阿表第一次清楚感觉到，自己已经站在了不能再装糊涂的位置。"
+
+    scene bg corridor_day
+    with dissolve
+
+    "中午，小葵到教学楼门口等别凑下课。"
+    "走廊被围得水泄不通，别凑护着她挤出人群，火气大得像下一秒就要跟全世界翻脸。"
+    "小葵一边想笑，一边又忽然心慌。"
+    "黑云已经压得很低了。"
+
+    return
+
+label chapter47_preview:
+
+    $ biecou_outfit = "casual"
+
+    scene black
+    with fade
+
+
+    centered "第四十七章「沙场」"
+
+    scene bg dorm_hall_day
+    with dissolve
+
+    "签约前夜，别凑先被小葵拉着去见了家里人。"
+    "饭桌上的温暖让小葵很羡慕。"
+    "也让她更清楚，自己和别凑终究活在截然不同的两种家庭里。"
+
+    scene bg phone_screen_dark
+    with fade
+
+    "与此同时，另一块战场已经悄悄布好。"
+    "SY收到了一组关于种芒的照片。"
+    "她甚至不用点开，就知道那是冲着自己来的刀。"
+
+    show sy stunned at center
+    with dissolve
+
+    "照片、嘲笑、挑衅、约见。"
+    "对方把她最不能碰的痛处捏在手里，只等她赴局。"
+
+    return
+
+label chapter48_preview:
+
+    $ sy_outfit = "daily"
+    $ biecou_outfit = "casual"
+
+    scene black
+    with fade
+
+
+    centered "第四十八章【决斗】"
+
+    scene bg flashback_alley
+    with dissolve
+
+    "SY还是去了。"
+    "别凑也去了。"
+    "原本是去救火，最后却都被拖进了火里。"
+
+    "对面不止一个人。"
+    "可当那句最恶毒的挑衅落下来时，SY脑子里只剩一个念头。"
+    "今天她就是想打。"
+
+    scene bg street_night
+    with fade
+
+    "那是一场彻底失控的群架。"
+    "拳头、棍子、倒地声、血、笑声。"
+    "别凑和SY像两只被逼疯的小兽，硬是把自己打成了血淋淋的样子，也没肯先退。"
+
+    scene bg office_window_night
+    with dissolve
+
+    "闹到最后，两个人一起被带进了警局。"
+    "而赶到门口的种芒和小葵，只能被拦在外面。"
+    "从这一夜开始，很多事情都回不去了。"
+
+    return
+
+label chapter49_preview:
+
+    scene black
+    with fade
+
+
+    centered "第四十九章【刑罚】"
+
+    scene bg student_office_day
+    with dissolve
+
+    "种芒和小葵想尽办法，却依旧进不去那道门。"
+    "外国人身份、学生身份、女孩身份。"
+    "到了警局，全都变得很轻。"
+
+    scene bg dorm_dark_night
+    with fade
+
+    "里面的日子比她们想象得还要难熬。"
+    "馒头硬得像石头，规矩多得像锁，劳动和羞辱从天亮排到天黑。"
+    "SY和别凑第一次真切见识到，原来有些地方连委屈都不能大声喊。"
+
+    scene bg restaurant_day
+    with dissolve
+
+    "外面的人也没好到哪里去。"
+    "肥皂被拖进来一起想办法，止水一边骂一边四处托关系。"
+    "可所有人都只能承认，刑罚真正落下来的时候，谁都替不了谁。"
+
+    return
+
+label chapter50_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十章【噤声】"
+
+    scene bg office_window_night
+    with dissolve
+
+    "学校先收到消息。"
+    "杨文明把通知压了下来，却压不住事情本身。"
+    "警局的流程拖拖拉拉，里面的欺负也越来越明目张胆。"
+
+    scene bg hotel_room_night
+    with fade
+
+    $ biecou_outfit = "home"
+
+    "等人终于出来，别凑却像把声音一并丢在了里面。"
+    "她不说发生过什么。"
+    "只是在夜里一遍遍惊醒，抱着小葵时都还在发抖。"
+
+    show xiaokui serious at left
+    show biecou down at right
+    with dissolve
+
+    xiaokui "没关系。"
+    xiaokui "你不想说，就先不说。"
+
+    "于是小葵在学校旁边租了房子，每晚陪她睡。"
+    "有些伤口，最先学会的不是愈合，而是噤声。"
+
+    return
+
+label chapter51_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十一章【复仇】"
+
+    scene bg hotel_room_night
+    with dissolve
+
+    "别凑始终不肯讲，小葵却已经从她的梦话和反应里拼出了大半。"
+    "有人动过她的小狮子。"
+    "那就该有人付出代价。"
+
+    scene bg izakaya_night
+    with fade
+
+    "复仇并不是热血上头的一拳。"
+    "而是一点点确认人、确认地方、确认对方最怕什么。"
+    "有人盯梢，有人递消息，有人把酒钱提前付好。"
+    "那场报复没有高调到让全世界围观。"
+    "却足够让该疼的人，真正疼一次。"
+
+    scene bg training_field_evening
+    with dissolve
+
+    "可就算账算回去一些，留在别凑心里的阴影也没有立刻退。"
+    "小葵这才明白，复仇能讨回公道，却不一定能讨回安心。"
+
+    return
+
+label chapter52_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十二章【暴雨】"
+
+    scene bg training_field_day
+    with dissolve
+
+    "风波过后，大家表面上都在恢复日常。"
+    "可只要凑在一起，谁都能看出来S芒之间又出了问题。"
+
+    scene bg zhongmang_room_night
+    with fade
+
+    "种芒比从前更黏SY，也比从前更不安。"
+    "她想确定自己仍然是唯一。"
+    "SY嘴笨，说不出漂亮的话。"
+    "可她还是把最重要的那一句说出来了。"
+
+    $ sy_outfit = "home"
+
+    show zhongmang at left
+    show sy determined at right
+    with dissolve
+
+    sy "你是唯一。"
+
+    "暴雨倾下来之前，天空总会短暂安静。"
+    "可她们都知道，这并不意味着后面不会再疼。"
+
+    return
+
+label chapter53_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十三章【花倦】"
+
+    scene bg zhongmang_room_night
+    with dissolve
+
+    "亲密过后，种芒忽然说，她想听SY讲讲过去。"
+    "不是随口一问。"
+    "而是想真的知道，这个人到底怎么长成今天这样。"
+
+    "于是SY第一次认真把自己的童年、家庭和那些骄傲又孤独的成长说给她听。"
+    "种芒这才发现，小狼并不是生来沉默。"
+    "她只是很早就学会了，一个人消化很多事。"
+
+    scene bg student_office_night
+    with fade
+
+    "另一边，杨文明和肥皂之间却又起了争执。"
+    "一个仍然坚信规则。"
+    "一个已经开始怀疑，规则是不是只会拿来伤人。"
+    "花开到最盛的时候，往往也最容易疲倦。"
+
+    return
+
+label chapter54_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十四章【诀别】"
+
+    scene bg zhongmang_room_night
+    with dissolve
+
+    "SY开始变得像个过度认真的照顾者。"
+    "她会盯着种芒早点睡、别熬夜、别胡乱吃东西。"
+    "种芒笑她管得严，却也喜欢这种被放在心尖上的感觉。"
+
+    scene bg plaza_sunset
+    with fade
+
+    "同一时间，肥皂和杨文明也拥有了一次久违的平静。"
+    "她们并肩站在海边，看潮水起落。"
+    "谁都没提过去，好像只要不提，就还能暂时不诀别。"
+
+    scene bg city_car_day
+    with dissolve
+
+    "可真正的刀，还是落到了别凑身上。"
+    "小葵的父亲单独见了她。"
+    "没有大吼大叫，只有最客气也最冰冷的命令。"
+    "离我女儿远一点。"
+
+    return
+
+label chapter55_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十五章【夏祭】"
+
+    scene bg home_livingroom
+    with dissolve
+
+    "夏天本该热闹。"
+    "小葵的世界里却只剩下一场比一场更沉的谈话。"
+    "父母不需要理解她，只需要她服从。"
+
+    show xiaokui sad at center
+    with dissolve
+
+    xiaokui "我已经当了二十年乖孩子。"
+    xiaokui "为什么不能有一次，按我自己想要的活？"
+
+    scene bg dorm_dark_night
+    with fade
+
+    "回答她的不是商量，而是更严密的看管。"
+    "她第一次真正意识到，家不是永远都站在自己这边。"
+    "有时候，家也会是困住人的笼子。"
+
+    return
+
+label chapter56_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十六章【逃亡】"
+
+    scene bg street_night
+    with dissolve
+
+    "小葵和别凑还是逃了。"
+    "她们像两只终于冲出牢笼的小兽，靠着一点钱和一点天真，想把未来先偷出来几天。"
+    "可现实追得比她们更快。"
+
+    scene bg senior_dorm_inside
+    with fade
+
+    "被带回去以后，家长、威胁、监视、连夜商量。"
+    "小葵甚至用伤害自己的方式，逼父母后退一步。"
+    "最后换来的，是一纸冷冰冰的约束。"
+
+    "在人前只能是朋友。"
+    "到期以后必须断干净。"
+    "否则，孙家也会一起被拖下水。"
+
+    scene bg xiaokui_room_day
+    with dissolve
+
+    "这不是自由。"
+    "只是带着倒计时的缓刑。"
+    "可对当时的凑葵来说，已经是拼命抢回来的幸福。"
+
+    "与此同时，种芒也在准备另一场远行。"
+    "一家大经纪公司递来的橄榄枝，把她和SY的未来推向了更远的地方。"
+
+    return
+
+label chapter57_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十七章【惜别】"
+
+    scene bg barbecue_night
+    with dissolve
+
+    "夏末，六个人又坐到了一起。"
+    "烤肉、啤酒、风、星空。"
+    "种芒靠在SY肩上撒娇，好像一切都还和以前一样。"
+
+    "可她最终还是把话说了。"
+    "那家经纪公司想签她和止水。"
+    "如果真的往前走，她就再也不可能只做校园里那个自由的种芒。"
+
+    scene bg infirmary_day
+    with fade
+
+    "还没等大家把这份不安消化完，另一场噩耗就到了。"
+    "肥皂在雨夜里遭人报复，膝伤严重恶化。"
+    "医生说得很委婉。"
+    "可所有人都听懂了。"
+    "她的篮球，大概走到头了。"
+
+    scene bg infirmary_day
+    with dissolve
+
+    "青春里总有很多惜别。"
+    "只是这一回，告别的不是某个人。"
+    "而是肥皂最骄傲的那块球场。"
+
+    return
+
+label chapter58_preview:
+
+    scene black
+    with fade
+
+
+    centered "第五十八章【约定】"
+
+    scene bg basketball_court_day
+    with dissolve
+
+    "肥皂坐着轮椅回到球场那天，整个球队都哭了。"
+    "她是大家长，是队长，是一代人的底气。"
+    "可这一次，她也只能低下头，承认自己真的很痛。"
+
+    scene bg training_field_day
+    with fade
+
+    "后来，大家还是想办法把人重新凑到了一起。"
+    "有人继续追梦，有人被迫停下，有人要学着在人前装作只是朋友，有人快要站到更大的舞台上。"
+    "未来像被撕成很多方向。"
+    "可她们还是想再并肩站一次。"
+
+    scene bg zhongmang_room_night
+    with dissolve
+
+    "最后的最后，种芒抱着SY流泪。"
+    "她终于不再逞强，也不再假装自己什么都能扛。"
+
+    $ sy_outfit = "home"
+
+    show zhongmang at left
+    show sy down at right
+    with dissolve
+
+    zhongmang "SY，爱会带来痛苦。"
+    zhongmang "但我会永远爱你。"
+
+    "SY没有说太多。"
+    "她只是把人抱得更紧。"
+    "像在抱住一个会远行的人，也像在抱住她们已经所剩不多的学生时代。"
 
     return

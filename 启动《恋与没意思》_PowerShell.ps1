@@ -1,5 +1,6 @@
 $projectDir = (Get-Item (Join-Path (Split-Path -Parent $MyInvocation.MyCommand.Path) ".")).FullName
-$renpyExe = "C:\Users\28100\Desktop\renpy-8.5.2-sdk\renpy.exe"
+$workspaceDir = Split-Path -Parent $projectDir
+$renpyExe = Join-Path $workspaceDir "renpy-8.5.2-sdk\renpy.exe"
 
 if (-not (Test-Path -LiteralPath $renpyExe)) {
     Write-Host "RenPy not found:"

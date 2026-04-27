@@ -510,7 +510,7 @@ screen chapter_select():
 
     tag menu
 
-    default chapter_entries = [ (i, "chapter%02d_preview" % i) for i in range(1, 31) ]
+    default chapter_entries = [ (i, "chapter%02d_preview" % i) for i in range(1, 59) ]
 
     use game_menu(_("章节选读"), scroll="viewport"):
 
@@ -521,7 +521,7 @@ screen chapter_select():
 
             text _("从对应章节直接开始新游戏。")
 
-            grid 3 10:
+            grid 3 20:
                 xalign 0.5
                 spacing 18
 

@@ -1,4 +1,4 @@
-﻿label start:
+label start:
     jump chapter01_preview
 
 define sy = Character("SY", color="#b7d7ff")
@@ -293,8 +293,7 @@ label chapter01_preview:
     sy "还能再见到你吗。"
 
 
-    return
-
+    jump chapter02_preview
 label chapter02_preview:
 
     $ sy_outfit = "daily"
@@ -512,8 +511,7 @@ label chapter02_preview:
     "可等那人走远以后，SY还是站在原地，很久都没动。"
 
 
-    return
-
+    jump chapter03_preview
 label chapter03_preview:
 
     scene black
@@ -718,8 +716,7 @@ label chapter03_preview:
     biecou "我就是想追。"
 
 
-    return
-
+    jump chapter04_preview
 label chapter04_preview:
 
     $ biecou_outfit = "casual"
@@ -962,8 +959,7 @@ label chapter04_preview:
     "这两个字从唇齿间滑出来时，像某种真正生效的咒语。"
 
 
-    return
-
+    jump chapter05_preview
 label chapter05_preview:
 
     $ biecou_outfit = "casual"
@@ -1233,8 +1229,7 @@ label chapter05_preview:
     "更像雨后树皮、泥土和风一起留下的气息。"
 
 
-    return
-
+    jump chapter06_preview
 label chapter06_preview:
 
     scene black
@@ -1341,8 +1336,7 @@ label chapter06_preview:
     xiaokui "(真是个……蠢得可爱的人。)"
 
 
-    return
-
+    jump chapter07_preview
 label chapter07_preview:
 
     $ sy_outfit = "daily"
@@ -1537,8 +1531,7 @@ label chapter07_preview:
     biecou "你果然是喝了假的。"
 
 
-    return
-
+    jump chapter08_preview
 label chapter08_preview:
 
     $ sy_outfit = "daily"
@@ -1666,8 +1659,7 @@ label chapter08_preview:
     biecou "(我都会一直在。)"
 
 
-    return
-
+    jump chapter09_preview
 label chapter09_preview:
 
     scene black
@@ -1742,8 +1734,7 @@ label chapter09_preview:
     zhongmang "你到底会先成为木佛，还是先变成野兽呢。"
 
 
-    return
-
+    jump chapter10_preview
 label chapter10_preview:
 
     $ sy_outfit = "basketball"
@@ -1873,8 +1864,7 @@ label chapter10_preview:
     "可有些人之所以一直站在光里，恰恰是因为影子从未真正离开。"
 
 
-    return
-
+    jump chapter11_preview
 label chapter11_preview:
 
     scene black
@@ -1989,8 +1979,7 @@ label chapter11_preview:
     "而像一团终于被撕开缰绳的黑色火焰。"
 
 
-    return
-
+    jump chapter12_preview
 label chapter12_preview:
 
     $ biecou_outfit = "casual"
@@ -2109,8 +2098,7 @@ label chapter12_preview:
     "她只是在梦里睡得很安稳。"
 
 
-    return
-
+    jump chapter13_preview
 label chapter13_preview:
 
     $ sy_outfit = "daily"
@@ -2264,8 +2252,7 @@ label chapter13_preview:
     "而且是十指相扣。"
 
 
-    return
-
+    jump chapter14_preview
 label chapter14_preview:
 
     scene black
@@ -2371,8 +2358,7 @@ label chapter14_preview:
     "现在，她们应该算网友了。"
 
 
-    return
-
+    jump chapter15_preview
 label chapter15_preview:
 
     $ sy_outfit = "daily"
@@ -2436,8 +2422,7 @@ label chapter15_preview:
     xiaokui "(而是在做这件事。)"
 
 
-    return
-
+    jump chapter16_preview
 label chapter16_preview:
 
     $ biecou_outfit = "casual"
@@ -2543,8 +2528,7 @@ label chapter16_preview:
     "而是差一点就发生的事。"
 
 
-    return
-
+    jump chapter17_preview
 label chapter17_preview:
 
     scene black
@@ -2641,8 +2625,7 @@ label chapter17_preview:
     xiaokui "(这次换我走向你。)"
 
 
-    return
-
+    jump chapter18_preview
 label chapter18_preview:
 
     $ biecou_outfit = "casual"
@@ -2740,8 +2723,7 @@ label chapter18_preview:
     feizao "我去约。"
 
 
-    return
-
+    jump chapter19_preview
 label chapter19_preview:
 
     $ biecou_outfit = "casual"
@@ -2894,8 +2876,7 @@ label chapter19_preview:
     sy "(我到底都做了什么。)"
 
 
-    return
-
+    jump chapter20_preview
 label chapter20_preview:
 
     scene black
@@ -2979,8 +2960,7 @@ label chapter20_preview:
     "她只知道，从这天开始，喜欢这件事已经再也没办法装成无事发生。"
 
 
-    return
-
+    jump chapter21_preview
 label chapter21_preview:
 
     scene black
@@ -3076,8 +3056,7 @@ label chapter21_preview:
     feizao "(今天其实挺像希望。)"
 
 
-    return
-
+    jump chapter22_preview
 label chapter22_preview:
 
     $ biecou_outfit = "casual"
@@ -3179,8 +3158,7 @@ label chapter22_preview:
     "至少她身边的朋友，还在一件件走向属于自己的舞台。"
 
 
-    return
-
+    jump chapter23_preview
 label chapter23_preview:
 
     scene black
@@ -3244,8 +3222,7 @@ label chapter23_preview:
     "暂时不知该往哪边走。"
 
 
-    return
-
+    jump chapter24_preview
 label chapter24_preview:
 
     scene black
@@ -3327,8 +3304,7 @@ label chapter24_preview:
     feizao "(杨文明，你到底想干什么。)"
 
 
-    return
-
+    jump chapter25_preview
 label chapter25_preview:
 
     $ biecou_outfit = "casual"
@@ -3397,8 +3373,7 @@ label chapter25_preview:
     "对SY来说，这种舒服又不费力的同频感，很久没出现过了。"
 
 
-    return
-
+    jump chapter26_preview
 label chapter26_preview:
 
     $ biecou_outfit = "casual"
@@ -3466,8 +3441,7 @@ label chapter26_preview:
     "可这些话，终究还是扎进了她心里。"
 
 
-    return
-
+    jump chapter27_preview
 label chapter27_preview:
 
     scene black
@@ -3527,8 +3501,7 @@ label chapter27_preview:
     "可壳越硬，里面那点不安反而越明显。"
 
 
-    return
-
+    jump chapter28_preview
 label chapter28_preview:
 
     scene black
@@ -3609,8 +3582,7 @@ label chapter28_preview:
     "SY站在原地，像被那道擦肩而过的风一下抽空。"
 
 
-    return
-
+    jump chapter29_preview
 label chapter29_preview:
 
     $ biecou_outfit = "casual"
@@ -3727,8 +3699,7 @@ label chapter29_preview:
     "可心里那团越来越浓的阴影，并没有真的散。"
 
 
-    return
-
+    jump chapter30_preview
 label chapter30_preview:
 
     scene black
@@ -3836,8 +3807,7 @@ label chapter30_preview:
     "后面的风，不会小。"
 
 
-    return
-
+    jump chapter31_preview
 label chapter31_preview:
 
     scene black
@@ -3883,8 +3853,7 @@ label chapter31_preview:
     "最后，她一句重话也没说，只是失控般一拳砸向粗糙的墙面。"
     "血顺着指节淌下来，像把这几个月所有隐忍都撕开了。"
 
-    return
-
+    jump chapter32_preview
 label chapter32_preview:
 
     scene black
@@ -3919,8 +3888,7 @@ label chapter32_preview:
     "只是越熟练，就越觉得自己像一具被摆上台面的精致傀儡。"
     "她想起别凑，忽然无比怀念那种不顾一切的热烈。"
 
-    return
-
+    jump chapter33_preview
 label chapter33_preview:
 
     scene black
@@ -3952,8 +3920,7 @@ label chapter33_preview:
     "小葵更坚定地想留在别凑身边。"
     "种芒却在明知无用的寻找里，把自己越推越远。"
 
-    return
-
+    jump chapter34_preview
 label chapter34_preview:
 
     scene black
@@ -3987,8 +3954,7 @@ label chapter34_preview:
     "有些风暴来临之前，并不会轰轰烈烈。"
     "它只会先在最安静的地方，留下一个裂口。"
 
-    return
-
+    jump chapter35_preview
 label chapter35_preview:
 
     scene black
@@ -4025,8 +3991,7 @@ label chapter35_preview:
     zhishui "你还喜欢她。"
     "这一次，种芒没有否认。"
 
-    return
-
+    jump chapter36_preview
 label chapter36_preview:
 
     scene black
@@ -4061,8 +4026,7 @@ label chapter36_preview:
     "昨夜让她们确认了心意，也让她们第一次真正意识到，彼此之间并不只剩下喜欢。"
     "还剩很多没补完的裂缝，和很多还不会相爱的笨拙。"
 
-    return
-
+    jump chapter37_preview
 label chapter37_preview:
 
     scene black
@@ -4097,8 +4061,7 @@ label chapter37_preview:
 
     "漫长的黑夜过去以后，几个人都看见了一点晨光。"
 
-    return
-
+    jump chapter38_preview
 label chapter38_preview:
 
     scene black
@@ -4126,8 +4089,7 @@ label chapter38_preview:
     "别凑生日那天，小葵陪她窝在房间里看《天空之城》。"
     "她靠在别凑肩上，第一次这么清楚地看见，这个总是吵吵闹闹的人，心里竟有那么辽阔又炽热的世界。"
 
-    return
-
+    jump chapter39_preview
 label chapter39_preview:
 
     scene black
@@ -4157,8 +4119,7 @@ label chapter39_preview:
     "另一边，肥皂接下了给SY画游戏立绘的小委托。"
     "本来只是随手帮忙，画着画着，却像又摸到了一条从没认真走过的路。"
 
-    return
-
+    jump chapter40_preview
 label chapter40_preview:
 
     scene black
@@ -4189,8 +4150,7 @@ label chapter40_preview:
     "所有人的生活都在变快。"
     "真正的夜色，还远没有落完。"
 
-    return
-
+    jump chapter41_preview
 label chapter41_preview:
 
     scene black
@@ -4220,8 +4180,7 @@ label chapter41_preview:
     "表面上还是吵吵闹闹，实际上每个人心里都清楚。"
     "她们已经和最初的自己，不一样了。"
 
-    return
-
+    jump chapter42_preview
 label chapter42_preview:
 
     scene black
@@ -4250,8 +4209,7 @@ label chapter42_preview:
     "而杨文明也来了。"
     "她明明站在人群里一动不动，肥皂却还是一下就知道，她在看自己。"
 
-    return
-
+    jump chapter43_preview
 label chapter43_preview:
 
     scene black
@@ -4281,8 +4239,7 @@ label chapter43_preview:
     "种芒望着那道疲惫到极点却还硬撑着的身影，心口又软又热。"
     "她知道，自己已经很难再放开她了。"
 
-    return
-
+    jump chapter44_preview
 label chapter44_preview:
 
     scene black
@@ -4313,8 +4270,7 @@ label chapter44_preview:
     "这对别人来说像是机会。"
     "对别凑来说，却更像一道把理想和现实同时推到眼前的难题。"
 
-    return
-
+    jump chapter45_preview
 label chapter45_preview:
 
     $ biecou_outfit = "casual"
@@ -4348,8 +4304,7 @@ label chapter45_preview:
     "那里没有舞台、没有冲动，只有秩序、交换和无声施压。"
     "山雨欲来前，空气总是格外沉。"
 
-    return
-
+    jump chapter46_preview
 label chapter46_preview:
 
     scene black
@@ -4380,8 +4335,7 @@ label chapter46_preview:
     "小葵一边想笑，一边又忽然心慌。"
     "黑云已经压得很低了。"
 
-    return
-
+    jump chapter47_preview
 label chapter47_preview:
 
     $ biecou_outfit = "casual"
@@ -4412,8 +4366,7 @@ label chapter47_preview:
     "照片、嘲笑、挑衅、约见。"
     "对方把她最不能碰的痛处捏在手里，只等她赴局。"
 
-    return
-
+    jump chapter48_preview
 label chapter48_preview:
 
     $ sy_outfit = "daily"
@@ -4450,8 +4403,7 @@ label chapter48_preview:
     "而赶到门口的种芒和小葵，只能被拦在外面。"
     "从这一夜开始，很多事情都回不去了。"
 
-    return
-
+    jump chapter49_preview
 label chapter49_preview:
 
     scene black
@@ -4481,8 +4433,7 @@ label chapter49_preview:
     "肥皂被拖进来一起想办法，止水一边骂一边四处托关系。"
     "可所有人都只能承认，刑罚真正落下来的时候，谁都替不了谁。"
 
-    return
-
+    jump chapter50_preview
 label chapter50_preview:
 
     scene black
@@ -4517,8 +4468,7 @@ label chapter50_preview:
     "于是小葵在学校旁边租了房子，每晚陪她睡。"
     "有些伤口，最先学会的不是愈合，而是噤声。"
 
-    return
-
+    jump chapter51_preview
 label chapter51_preview:
 
     scene black
@@ -4549,8 +4499,7 @@ label chapter51_preview:
     "可就算账算回去一些，留在别凑心里的阴影也没有立刻退。"
     "小葵这才明白，复仇能讨回公道，却不一定能讨回安心。"
 
-    return
-
+    jump chapter52_preview
 label chapter52_preview:
 
     scene black
@@ -4584,8 +4533,7 @@ label chapter52_preview:
     "暴雨倾下来之前，天空总会短暂安静。"
     "可她们都知道，这并不意味着后面不会再疼。"
 
-    return
-
+    jump chapter53_preview
 label chapter53_preview:
 
     scene black
@@ -4613,8 +4561,7 @@ label chapter53_preview:
     "一个已经开始怀疑，规则是不是只会拿来伤人。"
     "花开到最盛的时候，往往也最容易疲倦。"
 
-    return
-
+    jump chapter54_preview
 label chapter54_preview:
 
     scene black
@@ -4645,8 +4592,7 @@ label chapter54_preview:
     "没有大吼大叫，只有最客气也最冰冷的命令。"
     "离我女儿远一点。"
 
-    return
-
+    jump chapter55_preview
 label chapter55_preview:
 
     scene black
@@ -4675,8 +4621,7 @@ label chapter55_preview:
     "她第一次真正意识到，家不是永远都站在自己这边。"
     "有时候，家也会是困住人的笼子。"
 
-    return
-
+    jump chapter56_preview
 label chapter56_preview:
 
     scene black
@@ -4713,8 +4658,7 @@ label chapter56_preview:
     "与此同时，种芒也在准备另一场远行。"
     "一家大经纪公司递来的橄榄枝，把她和SY的未来推向了更远的地方。"
 
-    return
-
+    jump chapter57_preview
 label chapter57_preview:
 
     scene black
@@ -4750,8 +4694,7 @@ label chapter57_preview:
     "只是这一回，告别的不是某个人。"
     "而是肥皂最骄傲的那块球场。"
 
-    return
-
+    jump chapter58_preview
 label chapter58_preview:
 
     scene black
